@@ -23,6 +23,6 @@ def last_evaluated_value
   
 end
 
-def pizza_party
-  return "cheese"
+def pizza_party(argument="cheese")
+  return "#{argument}"
 end
